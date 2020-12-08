@@ -24,4 +24,10 @@ public class Vehiculo {
 	public void setLongitud(Double longitud) {
 		this.longitud = longitud;
 	}
+
+	public void actualizarCoordenadas(Double latitud, Double longitud) {
+		this.latitud=latitud;
+		this.longitud=longitud;
+		
+	}
 }
