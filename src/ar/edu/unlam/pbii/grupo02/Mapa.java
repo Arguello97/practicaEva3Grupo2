@@ -50,11 +50,11 @@ public class Mapa {
 				if(i!=j && i.getLatitud().equals(j.getLatitud()) && i.getLongitud().equals(j.getLongitud())) {
 					huboColicion=true;
 					throw new ColitionException();
-			}
 		}
+	}
+		
 	}
 		return huboColicion;
 	}
-
 }
 
